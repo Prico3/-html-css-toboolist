@@ -11,15 +11,12 @@ body{
 }
 
 .container {
-    background-color: aquamarine;
+    background-color: rgb(198, 240, 226);
+    width: 60%;
+    margin: 20px auto;
 }
 
 /* HEADER */
-
-header {
-    border: 1px solid black;
-}
-
 
 .header-top {
     height: 80px;
@@ -54,4 +51,15 @@ span {
     border: 0.5px solid grey;
     padding: 10px 20px;
     color: grey;
+}
+
+/* MAIN */
+
+ul {
+    margin: 20px;
+    list-style-type: none;
+}
+
+li{
+    margin-top: 10px;
 }
