@@ -11,8 +11,8 @@ body{
 }
 
 .container {
-    background-color: rgb(198, 240, 226);
-    width: 60%;
+    background-color: rgba(173, 234, 253, 0.336);
+    width: 70%;
     margin: 20px auto;
     border-radius: 5px;
 }
@@ -36,7 +36,7 @@ body{
 
 .header-bottom {
     margin-top: 50px;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 
 #button1{
@@ -63,6 +63,7 @@ ul {
 
 li{
     margin-top: 10px;
+    font-weight: bold;
 }
 
 .title{
@@ -90,7 +91,39 @@ li{
     height: 1.5rem;
     line-height: 1.5rem;
     text-align: center;
+}
 
+.bg-round{
+    border-radius: 30px;
+    color: white;
+    padding: 4px ;
+    margin-left: 5px;
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+
+.bg-violet{
+    background-color: blueviolet;
+}
+
+.bg-blue{
+    background-color: #47adf1;
+}
+
+.bg-aqua {
+    background-color: aqua;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.bg-lime{
+    background-color: lime;
 }
 
 
