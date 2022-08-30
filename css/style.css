@@ -14,6 +14,7 @@ body{
     background-color: rgb(198, 240, 226);
     width: 60%;
     margin: 20px auto;
+    border-radius: 5px;
 }
 
 /* HEADER */
@@ -28,7 +29,7 @@ body{
     vertical-align: middle;
 }
 
-span {
+#span-logo{
     font-size: 3rem;
     vertical-align: middle;
 }
@@ -63,3 +64,33 @@ ul {
 li{
     margin-top: 10px;
 }
+
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.check {
+    display: inline-block;
+    border: solid green;
+    color: green;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.cross{
+    display: inline-block;
+    border: solid red;
+    color: red;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+
+}
+
+
